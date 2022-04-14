@@ -59,7 +59,7 @@ void Actions::reboot()
 
 void Actions::lockScreen()
 {
-    QProcess::startDetached("cutefish-screenlocker", QStringList());
+    QProcess::startDetached("screenlocker", QStringList());
     qApp->exit(0);
 }
 

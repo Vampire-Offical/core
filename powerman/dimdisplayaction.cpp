@@ -83,7 +83,7 @@ void DimDisplayAction::onIdleTimeout(int msec)
         }
 
         if (m_lock) {
-            QProcess::startDetached("cutefish-screenlocker", QStringList());
+            QProcess::startDetached("screenlocker", QStringList());
         }
 
     } else if (sec == (m_dimOnIdleTime * 3 / 4)) {

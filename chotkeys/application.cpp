@@ -47,7 +47,7 @@ void Application::onPressed(QKeySequence keySeq)
     }
 
     if (keySeq.toString() == "Meta+L") {
-        QProcess::startDetached("cutefish-screenlocker", QStringList());
+        QProcess::startDetached("screenlocker", QStringList());
     }
 
     if (keySeq.toString() == "Ctrl+Alt+A") {
